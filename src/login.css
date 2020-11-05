@@ -1,0 +1,59 @@
+body{
+    margin: 0;
+    padding: 0;
+    background:linear-gradient(45deg, #2196F3 30%, #21CBF3 90%);
+}
+.login{
+    height:100vh;
+    width: 100vm;
+    display:grid;
+    place-items: center;
+    
+}
+.inside >h1{
+    color: white;
+    font-weight: 800;
+}
+.inside{
+    padding:100px;
+    text-align: center;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: -1px 4px 20px -6px rgba(0,0,0,.7);
+    background: linear-gradient(45deg, #FE6B8B 30%, #FF8E53 90%);
+}
+.inside>input{
+    border: 0;
+    /*background: none;*/
+    display: block;
+    margin:20px auto;
+    text-align: center;
+    border: 2px solid white;
+    padding:14px 10px;
+    width:200px;
+    outline:none;
+    color: rgb(0, 0, 0);
+    border-radius: 24px;
+    transition: 0.25s;
+    font-weight: 800;
+
+}
+.inside >input:focus{
+    width: auto;
+    border-color:black;
+}
+.inside >button{
+    border: none;
+    padding: 14px 10px;
+    width: 150px;
+    border-radius: 24px;
+    font-weight: 800;
+    background-color: white;
+    cursor: pointer;
+    color: rgb(0, 0, 0);
+
+}
+.inside >button:hover{
+    background: linear-gradient(45deg, #5dc2b1 50%, #3a5f5f 90%);
+}
+
