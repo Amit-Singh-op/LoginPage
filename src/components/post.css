@@ -1,0 +1,45 @@
+.user {
+  flex: 1;
+    display: flex;
+    margin: 5px;
+    margin-left: 10%;
+    margin-right: 10%;
+  }
+  .name{
+    flex:0.2;
+    border-width: 1px;
+    border-style: ridge;
+    margin-right: 1px;
+  }
+  .inner{
+    flex: 1;
+    border-width: 1px;
+    border-style: ridge;
+  }
+  .span{
+    align-self: center;
+  }
+  .span button{
+    padding: 60px;
+    border-width: 0px;
+    border-style: ridge;
+    margin-left: 1px;
+  }
+  .inner__header{
+    align-items: center;
+  }
+  .form{
+    margin-bottom: 50px;
+    margin-top: 30px;
+  }
+  .form input{
+    padding: 15px;
+    border-width: 0px;
+    background-color: antiquewhite;
+    margin-right: 2px;
+  }
+  .form button{
+    padding: 15px;
+    margin-left: 2px;
+    border-width: 0px;
+  }
